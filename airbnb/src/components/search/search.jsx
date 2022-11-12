@@ -1,15 +1,12 @@
 import "./search.css";
-import { useHistory } from 'react-router-dom';
 
 const SearchBar = ({ searchQuery, setSearchQuery }) => {
-    const history = useHistory();
     const onSubmit = (e) => {
-        history.push(`?s=${searchQuery}`);
         e.preventDefault();
     };
 
     return (
-        <form
+        <form className="search"
             action="/"
             method="get"
             autoComplete="off"

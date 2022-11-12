@@ -22,28 +22,25 @@ const Home = ()=>{
 
        <div className="image-cluster_container" id="image-container_wrapper">
        <div className="image-frame" id="image-wrapper_frame">
+        <div className="firstframe">
         <div className="image_wrapper" id="first-image_wrapper">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img-1.png`}  id ="cluster_meta_location"  alt="Meta_location"/>
+        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img1.svg`}  id ="cluster_meta_location"  alt="Meta_location"/>
         </div>
         <div className="image_wrapper" id="second-image_wrapper">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img_2.png`}  id ="cluster_meta_location"  alt="Meta_location"/>
+        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img2.svg`}  id ="cluster_meta_location"  alt="Meta_location"/>
         </div>
+        </div>
+        <div className="secondframe">
         <div className="image_wrapper" id="third-image_wrapper">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/homw-img_3.png`}  id ="cluster_meta_location"  alt="Meta_location"/>
+        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img3.svg`}  id ="cluster_meta_location"  alt="Meta_location"/>
         </div>
         <div className="image_wrapper" id="forth-image_wrapper">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img_4.png`}  id ="cluster_meta_location"  alt="Meta_location"/>
+        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img4.svg`}  id ="cluster_meta_location"  alt="Meta_location"/>
         </div>
-
+        </div>
         </div>
        </div>
        </div>
-
-<div className="meta-product frame" id="meta-product-column_frame">
-    
-</div>
-
-
     </div>
     );
 }

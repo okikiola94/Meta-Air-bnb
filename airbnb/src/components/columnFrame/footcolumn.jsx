@@ -1,6 +1,6 @@
 import "./footcolumn.css"
 
-const footcolumn= ()=>{
+const Footcolumn= ()=>{
     return(
 <div className="foot-column_wrapper" id="column_wrapper">
     <div className="inner-column_wrapper" id="inner_column-wrapper">
@@ -36,4 +36,4 @@ const footcolumn= ()=>{
     );
 };
 
-export default footcolumn;
+export default Footcolumn;

@@ -1,7 +1,17 @@
-.foot-column{
-width: 100%;
-background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-height: 80px;
+.foot-column_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    gap: 264px;
+    
+    position: absolute;
+    width: 1240px;
+    height: 70px;
+    left: 0px;
+    top: 742px;background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+
 
 }
 
@@ -27,7 +37,6 @@ display: flex;
 flex-direction: row;
 
 
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -56,13 +65,11 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 27px;
-/* or 68% */
 
 display: flex;
 align-items: center;
 letter-spacing: 0.02em;
 
-/* logo */
 
 color: #F7F7F7;
 }
@@ -72,7 +79,6 @@ color: #F7F7F7;
 height: 37.56px;
 
 
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -108,7 +114,6 @@ width: 198.32px;
 height: 40.79px;
 
 
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -119,7 +124,6 @@ flex-grow: 0;
     width: 38.32px;
 height: 40.79px;
     
-    /* Inside auto layout */
     
     flex: none;
     order: 2;
@@ -135,7 +139,6 @@ height: 40.79px;
     width: 148px;
 height: 39px;
 
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -149,7 +152,6 @@ flex-grow: 0;
     font-weight: 700;
     font-size: 32px;
     line-height: 96%;
-    /* or 31px */
     
     display: flex;
     align-items: center;
