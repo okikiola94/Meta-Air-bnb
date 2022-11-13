@@ -1,9 +1,9 @@
 .home-page{
-    display: flex;
+    /* display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;
-padding: 0px 23%;
+align-items: center; */
+/* padding: 0px 23%; */
 
 position: absolute;
 width: 1240px;
@@ -12,12 +12,28 @@ left: 100px;
 top: 165px;
 }
 
-.home-intro{
+
+.home-class_grid{
+    display: grid;
+    grid-template-rows:auto auto;
+    gap: 2rem;
+justify-content: center;
+align-items: center;
+/* padding: 0px 23%; */
+
+position: absolute;
+width: 1240px;
+height: 459px;
+}
+
+
+.home_intro{
     position: absolute;
-width: 1440px;
 height: 742px;
 left: 0px;
 top: 0px;
+width: 636px;
+height: 459px;
 }
 .intro-paragraph{
     width: 646px;
@@ -87,7 +103,7 @@ color: #434343;
 }
 
 .image-cluster_container{
-    right: 0%;
+    padding-left: 65%;
 }
 
 .image-frame{

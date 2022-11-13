@@ -1,0 +1,126 @@
+.metabnb-container_wrapper{
+    position: absolute;
+width: 1349px;
+height: 774px;
+left: 0px;
+top: 1794px;
+
+
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.metabnb-content-grid_wrapper{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    position: absolute;
+    width: 1240px;
+    height: 768px;
+    left: 100px;
+    top: 142px;
+}
+
+.metabnb-heading_wrapper{
+width: 346px;
+height: 60px;
+
+}
+
+#metabnb-heading{
+font-family: 'poppins';
+font-style: normal;
+font-weight: bolder;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+
+/* White lin */
+
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.metabnb-message_container{
+    height: 136px;
+width: 415px;
+}
+
+#metabnb-message{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* or 194% */
+
+
+/* White lin */
+
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.metabnb-btn{
+    
+padding-top: 40px;
+}
+
+#learnmore__btn{
+    height: 48px;
+    width: 156px;
+    border: #FFFFFF 1px solid;
+    border-radius: 8px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    color: #A02279;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+.metabnb-images-container_wrapper{
+    width: 704px;
+    height: 574.85px;
+    
+
+}
+
+
+
+#metabnb--img_001{
+    position: absolute;
+    width: 378.2px;
+    height: 253.89px;
+    left: 498px;
+    top: 90.13px;
+    z-index: 2;
+
+}
+
+#metabnb--img_002{
+    position: absolute;
+    width: 378.2px;
+    height: 253.89px;
+    left: 777.53px;
+    top: 221.93px;
+    z-index: 3;
+
+
+}
+
+#metabnb--img_003{
+    position: absolute;
+width: 378.21px;
+height: 253.89px;
+left: 769.45px;
+top: 0px;
+z-index: 1;
+
+}

@@ -1,0 +1,113 @@
+.Inspire{
+    position: absolute;
+width: 1240px;
+height: 963px;
+left: 0px;
+top: 831px;
+}
+
+.location-inspiration-text_wrapper{
+    position: absolute;
+width: 817px;
+height: 60px;
+left: 313px;
+}
+
+.location-inspiration-text_wrapper h2{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+
+
+}
+
+.location-inspiration-grid_wrapper{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+    position: absolute;
+    width: 1240px;
+    height: 768px;
+    left: 100px;
+    top: 142px;}
+    
+
+
+
+
+
+    .image-column_wrapper{
+   box-sizing: border-box;
+    /* position: absolute; */
+    width: 285px;
+    height: 372px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    box-shadow: 5px 10px 8px #888888;
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;}
+
+.image-wrapper{
+    /* position: absolute; */
+    width: 260px;
+    height: 265px;
+    padding: 11px;
+    top: 16px;
+    }
+
+
+.image-column-text-wrapper{
+    /* position: absolute; */
+    display: flex;
+    gap: 60px;
+    width: 262px;
+height: 40px;
+padding: 11px;
+top: 297px;
+
+}
+
+.image-colum-text-name_grid p{
+    
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 8px;    
+    color: #434343;
+}
+
+.image-column-text-price-grid{
+justify-content: right;
+}
+
+
+.image-column-text-price-grid p{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 8px;    
+    color: #434343;
+    text-align: right;
+
+}
+
+
+.starratings{
+gap: 8px;
+line-height: 8px;
+}
+
+.starratings img{
+    padding-inline-start: 2px;
+
+}
