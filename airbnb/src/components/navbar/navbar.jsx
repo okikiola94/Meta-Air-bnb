@@ -34,22 +34,22 @@ const Navbar = (props) => {
         <ul>
           <li>
           <div className="link-container">
-          <Link to="/contact" id="contact">Home</Link>
+          <Link to="/fullname" id="contact">Home</Link>
           </div>
           </li>
           <li>
           <div className="link-container">
-          <Link to="/contact" id="contact">Place to stay</Link>
+          <Link to="/places" id="contact">Place to stay</Link>
           </div>
           </li>
           <li>
           <div className="link-container">
-          <Link to="/contact" id="contact">NFTs</Link>
+          <Link to="/fullname" id="contact">NFTs</Link>
           </div>
           </li>
           <li>
           <div className="link-container">
-          <Link to="/contact" id="contact">Community</Link>
+          <Link to="/fullname" id="contact">Community</Link>
           </div>
           </li>
 

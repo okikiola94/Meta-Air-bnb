@@ -1,20 +1,24 @@
 
 import Navbar from './components/navbar/navbar';
-// import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Fullpage from './components/fullpage/fullname';
+import Place from './components/placetostay/place';
 
 function App() { 
   return (
     <div>
       <Navbar/>
-      <Fullpage/>
-    </div>
-    //   <Routes>
-    //  <Route path='/' exact component={<Navbar/>} />
+      <div className='container'>
+      <Routes>
+     <Route path='/' element={<Fullpage/>} />
+     <Route path='/fullname' element ={<Fullpage/>}/>
+     <Route path='/Places' element={<Place/>} />
 
-    //     <Route path='/' exact component={<Home/>} />
-    //   </Routes>
+      </Routes>
+      </div>
+    </div>
+      
   );
 }
 
