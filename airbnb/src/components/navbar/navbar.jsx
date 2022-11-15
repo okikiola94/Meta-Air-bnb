@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import PopUp from '../popup/popup';
 import "./navbar.css";
-
+import Walletpopup from '../walletpopup/walletpopup';
 
 const Navbar = (props) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -23,8 +23,10 @@ const Navbar = (props) => {
            <hr className='line'/> 
            <hr className='line'/>
            <hr className='line'/>
-
       </button>
+      {isNavExpanded && <PopUp exit={() => setIsNavExpanded(false)} />
+      }
+      
 
       
 
@@ -54,14 +56,10 @@ const Navbar = (props) => {
 
         </ul>
         <div className="avatar">
-            <div className="avatar-content">
-           <button onClick={() => {
-          setIsNavExpanded(!isNavExpanded);}}className="connect-wallet">Connect wallet</button> 
-            </div>
+           <Walletpopup/>
           </div>
           </div>
-          {isNavExpanded && <PopUp exit={() => setIsNavExpanded(false)} />
-      }
+          
       
 
     </nav>)}

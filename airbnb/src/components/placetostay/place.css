@@ -1,9 +1,5 @@
 
 
-
-
-
-
 .heading-grid-wrapper{
     display: flex;
 flex-direction: row;
@@ -250,6 +246,101 @@ color: #333333;
     color: #333333;
     padding-left: 9%;
 }
+
+    }
+
+    @media only screen and (min-width:541px) and (max-width: 980px){
+       
+        .heading-grid-wrapper {
+            margin: 2.5rem auto 0;
+            max-width: 89vw;
+            left: 6.94%;
+            top: 19.51%;
+            height: fit-content;
+            width: 80%;
+        }
+    
+    .meta-places-heading-container{
+        width: 81%;
+        height: fit-content;
+    }
+    
+    
+    .meta-Places-wrapper {
+        width: 100%;
+        margin-bottom: 72rem;
+    }
+    
+    .head-links-wrapper{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+    
+    .head-links-wrapper a {
+        width: 75px;
+        height: 18px;
+        text-decoration: none;
+        font-family: 'Red Rose';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 15px;
+        color: #434343;
+    }
+    
+
+
+        .location-place-grid_wrapper {
+            margin: 1rem auto;
+            max-width: 85rem;
+            grid-template-rows: auto auto;
+            grid-template-columns: none;
+            gap: 2rem;
+            width: 80%;
+            left: 12%;
+            top: 271px;
+        }
+        .place-image-column_wrapper{
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .tag-input-wrapper {
+            align-items: center;
+            border: 2px solid #cfd8dc;
+            flex-wrap: nowrap;
+            border-radius: 0.6rem;
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 0rem;
+            cursor: pointer;
+            height: 37px;
+            width: 109px;
+        }  
+        
+        #tag-input-paragraph {
+            font-family: 'Red Rose';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            text-align: center;
+            /* width: 68px; */
+            height: 20px;
+            /* left: calc(50% - 68px/2 - 33.5px); */
+            top: calc(50% - 20px/2);
+            color: #333333;
+            padding-left: 9%;
+        
+        
+            }
 
     }
 

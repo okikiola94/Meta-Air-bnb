@@ -123,14 +123,10 @@ color: #434343;
     height: 167px;
 }
 
-@media only screen and (min-width:320px) and (max-width: 541px) {
+@media only screen and (min-width:280px) and (max-width: 541px) {
 
     .home-page{
-        /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 0px 23%; */
+        
     
     position: absolute;
     width: 80%;
@@ -238,3 +234,106 @@ font-size: 49px;
     }
 }
 
+@media only screen and (min-width:541px) and (max-width: 980px) {
+
+    .home-page {
+        position: absolute;
+        width: 90%;
+        padding: 5%;
+        height: 100vh;
+        top: 11%;
+        left: 0px;
+    }
+        
+    .home-class_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0px 23%; */
+        position: absolute;
+        width: 85%;
+        height: 100%;
+    }
+
+        .home_intro{
+            position: absolute;
+        height: fit-content;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: fit-content;
+        }
+        .intro-paragraph{
+            width: 100%;
+        height: fit-content;
+    font-size: 49px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        
+        /* text black */
+        
+        }
+    
+        .first-paragraph{
+            position: absolute;
+            width: 100%;
+            height: fit-content;
+            left: 0px;
+            top: 0px;
+        }
+    
+        .second-paragraph {
+            position: relative;
+            width: 100%;
+            height: -moz-fit-content;
+            height: fit-content;
+            left: 0px;
+            top: 1rem;
+            padding-top: 14rem;
+        }
+        
+        .inner-paragraph_02 {
+            width: 100%;
+            text-align: center;
+            height: -moz-fit-content;
+            height: fit-content;
+            font-size: 29px;
+            line-height: 35px;
+        }
+
+        .image-cluster_container {
+            padding: 1% 10%;
+            width: 90%;
+            margin-top: 25rem;
+        }
+    
+        
+        .image-frame{
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            width: 100%;
+        }
+        
+        .firstframe{
+            padding-top: 50px;
+        }
+    
+        .secondframe{
+            margin-left: -3rem;
+        }
+        
+        .image_wrapper {
+            width: 236px;
+            height: 176px;
+        }
+        
+        .image_wrapper img{
+            width: 100%;
+            height: 100%;
+        }
+
+}
