@@ -1,5 +1,4 @@
 import "./place.css";
-import Footer from "../footer/footer";
 
 
 const Place =()=>{
@@ -16,7 +15,13 @@ const Place =()=>{
       <a href="#fullcolumn" id="garden_link">Garden</a>
       <a href="#fullcolumn" id="off-grid_link">Off-grid</a>
       <a href="#fullcolumn" id="farm_link">Farm</a>
+      <button href="/fullname" className="tag-input-wrapper">
+  <img src={`${process.env.PUBLIC_URL}/assets/images/setting-5.svg`}  id ="cluster_meta_location"  alt="Meta_location"/>
+  <p id="tag-input-paragraph"> Location </p>
+   </button>
    </div>
+
+   
    
 </div>
 
@@ -396,9 +401,7 @@ const Place =()=>{
 
 
 </div>
-<div className="footer-place-wrapper">
-           <Footer/> 
-           </div>
+
         </div>
     );
 }

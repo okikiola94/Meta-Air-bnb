@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Fullpage from './components/fullpage/fullname';
 import Place from './components/placetostay/place';
+import Footer from './components/footer/footer';
 
 function App() { 
   return (
@@ -16,6 +17,7 @@ function App() {
      <Route path='/Places' element={<Place/>} />
 
       </Routes>
+      <Footer/>
       </div>
     </div>
       

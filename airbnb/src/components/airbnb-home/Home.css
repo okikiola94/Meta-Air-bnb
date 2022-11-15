@@ -96,15 +96,16 @@ font-weight: 400;
 font-size: 22px;
 line-height: 35px;
 /* or 146% */
-
-
-
 color: #434343;
 }
 
+
+
+
 .image-cluster_container{
-    padding-left: 65%;
-}
+        padding-left: 72%;
+        width: 500px;
+    }
 
 .image-frame{
     display: flex;
@@ -116,3 +117,124 @@ color: #434343;
 .firstframe{
     padding-top: 50px;
 }
+
+.image_wrapper {
+    width: 224px;
+    height: 167px;
+}
+
+@media only screen and (min-width:320px) and (max-width: 541px) {
+
+    .home-page{
+        /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 0px 23%; */
+    
+    position: absolute;
+    width: 80%;
+    padding: 10%;
+    height: 100vh;
+    top: 11%;
+    left: 0px;
+    }
+    
+    
+    .home-class_grid{
+        display: grid;
+        grid-template-columns:auto auto;
+        gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 23%; */
+    
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    }
+     
+    .home_intro{
+        position: absolute;
+    height: fit-content;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: fit-content;
+    }
+    .intro-paragraph{
+        width: 100%;
+    height: fit-content;
+font-size: 49px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    
+    /* text black */
+    
+    }
+
+    .first-paragraph{
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        left: 0px;
+        top: 0px;
+    }
+
+    .second-paragraph{
+            position: relative;
+            width: 100%;
+            height: -moz-fit-content;
+            height: fit-content;
+            left: 0px;
+            top: 1rem;
+            padding-top: 21rem;
+    }
+    
+    .inner-paragraph_02{
+        width: 100%;
+        text-align: center;
+    height: fit-content;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 146% */
+    }
+    
+    
+    
+    
+    .image-cluster_container{
+        padding: 30% 10%;
+    width: 80%;
+    margin-top: 38rem;
+
+    }
+
+    
+    .image-frame{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        width: 100%;
+    }
+    
+    .firstframe{
+        padding-top: 50px;
+    }
+
+    .secondframe{
+        margin-left: -3rem;
+    }
+    
+    .image_wrapper{
+        width: 170px;
+        height: 100px;
+    }
+    
+    .image_wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
